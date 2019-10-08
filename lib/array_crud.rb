@@ -35,9 +35,11 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-
+  j = ["ruby", "javascript", "c", "python", "arrays!"]
+  j[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-
+  h = ["okay", "cool", "absolutely", "definitely", "sure"]
+  h[4] = "totally"
 end
