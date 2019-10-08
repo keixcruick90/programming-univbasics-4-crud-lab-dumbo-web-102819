@@ -22,7 +22,7 @@ end
 
 def remove_element_from_start_of_array(array)
   h = ["wow", "like", "lol"]
-  anime.shift("wow")
+  h.shift("wow")
 end
 
 def retrieve_element_from_index(array, index_number)
