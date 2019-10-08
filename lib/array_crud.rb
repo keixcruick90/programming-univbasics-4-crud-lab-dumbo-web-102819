@@ -20,12 +20,11 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  anime = ["wow", "Rurouni Kenshin", "Gundam Wing", "Dragon Ball Z"]
   anime.shift("wow")
 end
 
 def retrieve_element_from_index(array, index_number)
-  time_of_day = ["pm", "am"]
+  time_of_day = ["pm", "ad", "am"]
   time_of_day[2]
 end
 
