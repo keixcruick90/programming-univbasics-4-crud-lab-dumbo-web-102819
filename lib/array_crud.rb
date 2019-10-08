@@ -11,17 +11,17 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  anime = ["Yu Yu Hakusho", "Rurouni Kenshin", "Gundam Wing", "Dragon Ball Z"]
-  anime.unshift("Sailor Moon")
+  
 end
 
 def remove_element_from_end_of_array(array)
-  podcasts = ["The Read", "The Nod", "Gettin' Grown", "Punch Up The Jam"]
+  podcasts = ["The Read", "The Nod", "Gettin' Grown", "arrays!"]
   podcasts.pop
 end
 
 def remove_element_from_start_of_array(array)
-
+  anime = ["wow", "Rurouni Kenshin", "Gundam Wing", "Dragon Ball Z"]
+  anime.shift("wow")
 end
 
 def retrieve_element_from_index(array, index_number)
